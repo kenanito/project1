@@ -1,0 +1,454 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+.top_side {
+    background-color: rgb(245, 245, 245);
+    top: 5px;
+}
+
+.black_top {
+    background-color: black;
+    width: 100%;
+    height: 35px;
+    margin: -8px -8px;
+}
+
+.header_top {
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.header_bot {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.home {
+    background-color: rgb(245, 245, 245);
+    color: rgb(129, 129, 129);
+    font-family: sans-serif;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 4px solid rgb(245, 245, 245);
+    text-decoration: none;
+}
+
+.club:hover .home {
+    border-bottom: 4px solid black;
+    color: black;
+}
+
+.dropbtn {
+    background-color: rgb(245, 245, 245);
+    color: rgb(129, 129, 129);
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 4px solid rgb(245, 245, 245);
+}
+
+.club {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(129, 129, 129);
+    font-family: sans-serif;
+    font-size: 12px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.club:hover .dropdown-content {
+    display: block;
+}
+
+.club:hover .dropbtn {
+    border-bottom: 4px solid black;
+    color: black;
+}
+
+.top {
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.keepers {
+    display: flex;
+    justify-content: center;
+}
+
+.courtois {
+    margin-top: 5px;
+    margin-right: 15px;
+    background-color: white;
+    width: 200px;
+    height: 320px;
+    border-top: 3px solid black;
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.lunin {
+    margin-top: 5px;
+    background-color: white;
+    width: 200px;
+    height: 320px;
+    border-top: 3px solid black;
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.defenders {
+    display: flex;
+    justify-content: center;
+}
+
+.carvajal {
+    margin-top: 5px;
+    margin-right: 15px;
+    background-color: white;
+    width: 200px;
+    height: 320px;
+    border-top: 3px solid black;
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.militao {
+    margin-top: 5px;
+    margin-right: 15px;
+    background-color: white;
+    width: 200px;
+    height: 320px;
+    border-top: 3px solid black;
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.alaba {
+    margin-top: 5px;
+    margin-right: 15px;
+    background-color: white;
+    width: 200px;
+    height: 320px;
+    border-top: 3px solid black;
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.nacho {
+    margin-top: 5px;
+    margin-right: 15px;
+    background-color: white;
+    width: 200px;
+    height: 320px;
+    border-top: 3px solid black;
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.marcelo {
+    margin-top: 5px;
+    margin-right: 15px;
+    background-color: white;
+    width: 200px;
+    height: 320px;
+    border-top: 3px solid black;
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.mendy {
+    margin-top: 5px;
+    margin-right: 15px;
+    background-color: white;
+    width: 200px;
+    height: 320px;
+    border-top: 3px solid black;
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.vallejo {
+    margin-top: 5px;
+    background-color: white;
+    width: 200px;
+    height: 320px;
+    border-top: 3px solid black;
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.midfielders {
+    display: flex;
+    justify-content: center;
+}
+
+.kroos {
+    margin-top: 5px;
+    margin-right: 15px;
+    background-color: white;
+    width: 200px;
+    height: 320px;
+    border-top: 3px solid black;
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.modric {
+    margin-top: 5px;
+    margin-right: 15px;
+    background-color: white;
+    width: 200px;
+    height: 320px;
+    border-top: 3px solid black;
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.casemiro {
+    margin-top: 5px;
+    margin-right: 15px;
+    background-color: white;
+    width: 200px;
+    height: 320px;
+    border-top: 3px solid black;
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.valverde {
+    margin-top: 5px;
+    margin-right: 15px;
+    background-color: white;
+    width: 200px;
+    height: 320px;
+    border-top: 3px solid black;
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.lucas {
+    margin-top: 5px;
+    margin-right: 15px;
+    background-color: white;
+    width: 200px;
+    height: 320px;
+    border-top: 3px solid black;
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.ceballos {
+    margin-top: 5px;
+    margin-right: 15px;
+    background-color: white;
+    width: 200px;
+    height: 320px;
+    border-top: 3px solid black;
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.isco {
+    margin-top: 5px;
+    margin-right: 15px;
+    background-color: white;
+    width: 200px;
+    height: 320px;
+    border-top: 3px solid black;
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.camavinga {
+    margin-top: 5px;
+    margin-right: 15px;
+    background-color: white;
+    width: 200px;
+    height: 320px;
+    border-top: 3px solid black;
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.forwards {
+    display: flex;
+    justify-content: center;
+}
+
+.hazard {
+    margin-top: 5px;
+    margin-right: 15px;
+    background-color: white;
+    width: 200px;
+    height: 320px;
+    border-top: 3px solid black;
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.benzema {
+    margin-top: 5px;
+    margin-right: 15px;
+    background-color: white;
+    width: 200px;
+    height: 320px;
+    border-top: 3px solid black;
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.asensio {
+    margin-top: 5px;
+    margin-right: 15px;
+    background-color: white;
+    width: 200px;
+    height: 320px;
+    border-top: 3px solid black;
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.vinicius {
+    margin-top: 5px;
+    margin-right: 15px;
+    background-color: white;
+    width: 200px;
+    height: 320px;
+    border-top: 3px solid black;
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.mariano {
+    margin-top: 5px;
+    margin-right: 15px;
+    background-color: white;
+    width: 200px;
+    height: 320px;
+    border-top: 3px solid black;
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.rodrygo {
+    margin-top: 5px;
+    margin-right: 15px;
+    background-color: white;
+    width: 200px;
+    height: 320px;
+    border-top: 3px solid black;
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.bale {
+    margin-top: 5px;
+    margin-right: 15px;
+    background-color: white;
+    width: 200px;
+    height: 320px;
+    border-top: 3px solid black;
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.jovic {
+    margin-top: 5px;
+    margin-right: 15px;
+    background-color: white;
+    width: 200px;
+    height: 320px;
+    border-top: 3px solid black;
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.numberName {
+    display: flex;
+    max-height: 50px;
+}
+
+.strings {
+    display: block;
+}
+
+.firstString {
+    display: flex;
+}
+
+.secondString {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.homee {
+    position: relative;
+    display: inline-block;
+}
+
+.home:hover {
+    color: black;
+}
+
+@media only screen and (max-width: 768px) {
+    .header_bot {
+        display: inline-block;
+    }
+    .firstString {
+        display: inline-block;
+    }
+    .secondString {
+        display: inline-block;
+    }
+}
